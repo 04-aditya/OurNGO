@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NGOKonnect</string>
+    <string name="title_activity_maps">NGOKonnect</string>
+
+    <string-array name="countries_array">
+        <item>Seva Sahayog Foundation</item>
+        <item>RESQ Charitable Trust</item>
+        <item>Apla Ghar</item>
+        <item>Sanmati Bal Niketan</item>
+        <item>SindhuTai Sapkal Boy Orphanage</item>
+        <item>Tayyabia Orphanege</item>
+    </string-array>
+    <string name="title_item_list">Partners</string>
+    <string name="title_item_detail">Details</string>
+
+</resources>
