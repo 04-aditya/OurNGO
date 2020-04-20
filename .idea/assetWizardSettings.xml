@@ -50,7 +50,19 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="51" />
+                                                <entry key="scalingPercent" value="66" />
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="foregroundClipArt">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -63,8 +75,33 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="108" />
+                                                <entry key="scalingPercent" value="102" />
                                                 <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="foregroundText">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="fbfff6" />
+                                                <entry key="scalingPercent" value="126" />
+                                                <entry key="trimmed" value="true" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="foregroundTextAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="fontFamily" value="Ideal Sans Bold" />
+                                                <entry key="text" value="Sindhutai Sapkal" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -75,9 +112,11 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="f8f7ff" />
-                                      <entry key="foregroundImage" value="C:\Users\Aditya\Desktop\Random\Random Pictures\new-instagram-logo-png-transparent-800x799.png" />
-                                      <entry key="outputName" value="insta" />
+                                      <entry key="backgroundColor" value="e25ca6" />
+                                      <entry key="backgroundImage" value="D:\SIT SY Stuff\RESQLogo.png" />
+                                      <entry key="foregroundAssetType" value="TEXT" />
+                                      <entry key="foregroundImage" value="D:\SIT SY Stuff\aapla.jpg" />
+                                      <entry key="outputName" value="ss" />
                                     </map>
                                   </option>
                                 </PersistentState>

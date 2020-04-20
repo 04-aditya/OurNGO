@@ -6,38 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ItemListActivity">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton4"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:clickable="true"
-        android:foreground="@mipmap/insta_round"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.897"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        app:srcCompat="@mipmap/twitter_round"
-        android:onClick="goToInsta"
-        />
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="270dp"
-        android:layout_height="159dp"
-        android:foreground="@mipmap/seva_foreground"
-        android:onClick="goToSite"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227">
-
-    </android.support.v7.widget.CardView>
-
 
     <TextView
         android:id="@+id/heading"
@@ -45,7 +13,7 @@
         android:layout_height="match_parent"
         android:fontFamily="sans-serif-condensed-light"
         android:paddingTop="25dp"
-        android:text="Partners"
+        android:text="@string/title_item_list"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/colorPrimaryDark"
@@ -58,50 +26,98 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="343dp"
-        android:layout_height="164dp"
-        android:elevation="10dp"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="Seva Sahayog Foundation has been serving for over 10 years towards the development and welfare for the underprivileged section of the urban slum lives. They aim at engaging socially conscious corporates, groups and individuals, with NGOs of matching interest with a purpose to collectively add value to the society at large. Click on the various links below for their latest news and updates."
-        android:textAlignment="center"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:layout_constraintVertical_bias="0.136" />
-
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/floatingActionButton4"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:clickable="true"
-        android:foreground="@mipmap/twitter_round"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:foreground="@mipmap/ourngo_round"
+        android:onClick="goBack"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintHorizontal_bias="0.897"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        app:srcCompat="@mipmap/twitter"
-        android:onClick="goToTweet"/>
+        app:layout_constraintVertical_bias="0.932" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton3"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:background="@mipmap/fb"
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="192dp"
+        android:layout_height="100dp"
+        android:foreground="@mipmap/seva_foreground"
         android:clickable="true"
-        android:foreground="@mipmap/fb_round"
+        android:onClick="goNext"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        app:srcCompat="@mipmap/twitter_round"
-        android:onClick="goToFace"/>
+        app:layout_constraintVertical_bias="0.197">
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="192dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:foreground="@mipmap/resq_foreground"
+        android:onClick="goNext2"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        app:cardBackgroundColor="@color/aapla_background"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"></android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="192dp"
+        android:layout_height="100dp"
+        android:foreground="@mipmap/aapla_foreground"
+        android:clickable="true"
+        android:onClick="goNext3"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618">
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="192dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:foreground="@mipmap/ss"
+        android:onClick="goNext4"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        app:cardBackgroundColor="@color/ss_background"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"></android.support.v7.widget.CardView>
 
 </android.support.constraint.ConstraintLayout>
 

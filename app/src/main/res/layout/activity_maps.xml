@@ -44,10 +44,10 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="154dp"
-        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="49dp"
         android:clickable="true"
-        android:foreground="@mipmap/ngolaunch1_round"
+        android:foreground="@mipmap/ourngo_round"
         android:onClick="nextAct" />
 
 </RelativeLayout>

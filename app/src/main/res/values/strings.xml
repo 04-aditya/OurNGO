@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">NGOKonnect</string>
-    <string name="title_activity_maps">NGOKonnect</string>
+    <string name="app_name">Our NGOs</string>
+    <string name="title_activity_maps">Our NGOs</string>
 
     <string-array name="countries_array">
         <item>Seva Sahayog Foundation</item>
@@ -12,5 +12,12 @@
     </string-array>
     <string name="title_item_list">Partners</string>
     <string name="title_item_detail">Details</string>
+    <string name="detail_seva">Seva Sahayog Foundation has been serving for over 10 years towards the development and welfare for the underprivileged section of the urban slum lives. They aim at engaging socially conscious corporates, groups and individuals, with NGOs of matching interest with a purpose to collectively add value to the society at large. Click on the various links below for their latest news and updates.</string>
+    <string name="resq_charitable_trust">RESQ Charitable Trust</string>
+    <string name="resq_detail">RESQ Charitable Trust is a not-for-profit organisation that works towards reducing human-animal conflict on the streets of Pune, India since 2007. They rescue and rehabilitate over 12,000 injured and sick street animals every year, run a Free Street Animal Hospital, conduct education and awareness sessions on peaceful urban co-existence and run Rabies related field and research work programs.</string>
+    <string name="aapla_ghar">Apla Ghar</string>
+    <string name="aapla_detail">Apla Ghar, a NGO managed by Late Vaibhav Phalnikar Memorial Foundation, established in 2001 by Shri Vijay Phalnikar and Mrs. Sadhana Phalnikar in memory of their only son Vaibhav who died of cancer, started in a small way by providing free ambulance service for the benefit of economically backward section of the society. Today we are able to successfully manage all our projects only by generous donations in cash/kind from our well wishers.</string>
+    <string name="ss_name">Sindhutai Sapkal</string>
+    <string name="ss_detail">Sindhutai Sapkal also known as Mother of Orphans is an Indian social worker and social activist known particularly for her work for raising orphan children. She has devoted her entire life for orphans. As a result she is fondly called Mai (mother). She has nurtured over 1050 orphaned children. As of today, she has a grand family of 207 son-in-laws, 36 daughter-in-laws.</string>
 
 </resources>
